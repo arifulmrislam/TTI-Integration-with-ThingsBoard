@@ -9,4 +9,4 @@ Devices List:
 
 https://demo.thingsboard.io/dashboard/3d1eed20-8a4b-11ec-bf89-2786683a9f78?publicId=8affe0f0-8a4e-11ec-bf89-2786683a9f78
 
-[![asciicast](https://asciinema.org/a/113463.png)]([https://asciinema.org/a/113463](https://demo.thingsboard.io/dashboard/3d1eed20-8a4b-11ec-bf89-2786683a9f78?publicId=8affe0f0-8a4e-11ec-bf89-2786683a9f78))
+![Main](https://demo.thingsboard.io/dashboard/3d1eed20-8a4b-11ec-bf89-2786683a9f78?publicId=8affe0f0-8a4e-11ec-bf89-2786683a9f78)
