@@ -6,7 +6,3 @@ Devices List:
 4. Temp: temperature: https://www.adeunis.com/en/produit/temp-temperature/
 5. Eastron Three Phase Meter: https://www.alternergy.co.uk/eastron-3ph-energy-meter
 
-
-
-
-<a href="https://www.google.com/" target="_blank">Google</a>
