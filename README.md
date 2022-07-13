@@ -10,4 +10,4 @@ Devices List:
 
 
 
-@import url('[https://unpkg.com/primer/build/build.css](https://demo.thingsboard.io/dashboard/3d1eed20-8a4b-11ec-bf89-2786683a9f78?publicId=8affe0f0-8a4e-11ec-bf89-2786683a9f78)');
+@import url('[[https://unpkg.com/primer/build/build.css](https://demo.thingsboard.io/dashboard/3d1eed20-8a4b-11ec-bf89-2786683a9f78?publicId=8affe0f0-8a4e-11ec-bf89-2786683a9f78)](https://demo.thingsboard.io/dashboard/3d1eed20-8a4b-11ec-bf89-2786683a9f78?publicId=8affe0f0-8a4e-11ec-bf89-2786683a9f78)');
