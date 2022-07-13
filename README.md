@@ -5,3 +5,6 @@ Devices List:
 3. Modbus: interface for “Modbus slaves”: https://www.adeunis.com/en/produit/modbus-interface-for-modbus-slaves/
 4. Temp: temperature: https://www.adeunis.com/en/produit/temp-temperature/
 5. Eastron Three Phase Meter: https://www.alternergy.co.uk/eastron-3ph-energy-meter
+
+
+https://demo.thingsboard.io/dashboard/3d1eed20-8a4b-11ec-bf89-2786683a9f78?publicId=8affe0f0-8a4e-11ec-bf89-2786683a9f78
