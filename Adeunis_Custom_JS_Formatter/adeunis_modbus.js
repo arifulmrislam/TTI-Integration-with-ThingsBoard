@@ -1,24 +1,20 @@
-//1. The first line is a function declaration.
-//2. The second line is a variable declaration.
-//3. The third line is a bitwise left shift operation.
-//4. The fourth line is a bitwise OR operation.
-//5. The fifth line is a bitwise OR operation.
 function decodeUplink(input) {
 	var data = {};
 	if (input.bytes[0] == 0x44) {				//Check first byte if valid payload
 // Voltage, Power, Energy and Current from Energy Meter
     data.payload_type = 1;
-		data.p_tot = readFloatBE(input.bytes.slice(2,6));
-		//data.e_tot = readFloatBE(input.bytes.slice(6,10));
-  
-		data.vr = readFloatBE(input.bytes.slice(6,10));
-		data.vs = readFloatBE(input.bytes.slice(10,14));
-		data.vt = readFloatBE(input.bytes.slice(14,18));
+
+		data.vr = readFloatBE(input.bytes.slice(2,6));
+		data.vs = readFloatBE(input.bytes.slice(6,10));
+		data.vt = readFloatBE(input.bytes.slice(10,14));
+		data.p_tot = ((readFloatBE(input.bytes.slice(14,18)) - readFloatBE(input.bytes.slice(18,22)))/1000).toFixed(2);
+		
 	}
-	if (input.bytes[0] == 0x5F) {
+ 	if (input.bytes[0] == 0x5F) {
     data.payload_type = 2;
-		data.e_tot = readFloatBE(input.bytes.slice(2,6));
-	}
+    
+ 		data.e_tot = (readFloatBE(input.bytes.slice(2,6)) - readFloatBE(input.bytes.slice(6,10))).toFixed(2);
+ 	}
 
 	return {data:data};
 }
